@@ -1,0 +1,14 @@
+﻿<Application
+    x:Class="WhatToWearApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhatToWearApp"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <x:String x:Key="ida:ClientId">a762ff14-641c-4d62-ae2c-f2322d814578</x:String>
+        <x:String x:Key="ida:AADInstance">https://login.microsoftonline.com/</x:String>
+        <x:String x:Key="ida:Domain">code4word.onmicrosoft.com</x:String>
+    </Application.Resources>
+
+</Application>
+

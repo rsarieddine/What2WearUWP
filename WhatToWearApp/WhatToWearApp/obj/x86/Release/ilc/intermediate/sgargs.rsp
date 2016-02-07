@@ -1,0 +1,9 @@
+/out:"d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\intermediate\\"
+/ref:"d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x86\ilc\lib\Private\\"
+/ref:"d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\in\\"
+/ref:"d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib
+"@d:\documents\visual studio 2015\Projects\WhatToWearApp\WhatToWearApp\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\ComputedSerializationInput.txt"

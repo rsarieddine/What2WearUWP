@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="WhatToWearApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhatToWearApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+
+        <Style x:Key="ImageButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="0,0,0,24"/>
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <Image Source="{Binding}" Stretch="None"/>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Content" Value="Assets/Samples/Toasts/UnderConstruction.jpg"/>
+        </Style>
+
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBlock x:Name="results" Margin="70,-16,-70,16"></TextBlock>
+            <Button x:Name="BtnGetEvents" Content="Sync Calendar!" HorizontalAlignment="Left" Margin="55,208,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.737,-2.446" Click="BtnGetEvents_Click" Width="210" Visibility="Collapsed"/>
+
+            <Button x:Name="ConnectButton"  Content="Connect to your calendar"  Click="ConnectButton_Click" Margin="55,70,0,537" RenderTransformOrigin="-1.712,-4.5" Height="33" Width="210"/>
+            <ProgressBar x:Name="ProgressBar" Visibility="Collapsed" Grid.Row="0" Grid.ColumnSpan="3" IsIndeterminate="True" Margin="0,10"/>
+            <TextBlock  x:Name="InfoText" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="{ThemeResource TextStyleLargeFontSize}" TextWrapping="Wrap" Width="340" Margin="10,216,0,400"></TextBlock>
+        </StackPanel>
+       
+        
+          
+    </Grid>
+    <Page.TopAppBar>
+        <CommandBar >
+            <CommandBar.Content>
+                <TextBlock Grid.Row="0" Grid.Column="1" x:Name="appTitle" Text="What to wear?"
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center" 
+                       TextWrapping="Wrap"
+                       FontSize="{ThemeResource TextStyleExtraLargeFontSize}" Margin="40,0,0,0"
+                       />
+
+            </CommandBar.Content>
+            <AppBarButton Icon="Cancel" Label="disconnect" Visibility="Collapsed" Click="DisconnectButton_Click" x:Name="DisconnectButton"/>
+            <AppBarButton Icon="Copy" Visibility="Collapsed"  Label="copy redirect URI" Click="CopyRedirectUriToClipboard_Click" />
+        </CommandBar>
+    </Page.TopAppBar>
+</Page>

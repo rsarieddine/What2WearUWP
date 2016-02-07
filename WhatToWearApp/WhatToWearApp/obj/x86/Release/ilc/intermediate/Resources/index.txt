@@ -1,0 +1,21 @@
+Microsoft.OData.Client, Version=6.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.OData.Client.resources
+Microsoft.OData.Edm, Version=6.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.OData.Edm.resources
+  CapabilitiesVocabularies.xml
+  CoreVocabularies.xml
+  AlternateKeysVocabularies.xml
+Microsoft.OData.Core, Version=6.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.OData.Core.resources
+Microsoft.Data.Edm, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.Data.Edm.resources
+Microsoft.Data.OData, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.Data.OData.resources
+Microsoft.Data.Services.Client, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  System.Data.Services.Client.resources
+Microsoft.Office365.Discovery, Version=1.0.22.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.Office365.Discovery.Properties.Resources.resources
+Microsoft.Spatial, Version=6.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Microsoft.Spatial.resources
+System.Spatial, Version=5.6.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  System.Spatial.resources
